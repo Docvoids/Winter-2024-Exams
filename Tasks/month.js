@@ -13,9 +13,9 @@ Months = ['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec
 
 const getMonthNum = (s) => {
   
-  const num_months = Months.length;
+  const numMonths = Months.length;
   
-  for (let i = 0; i < num_months; i++) {
+  for (let i = 0; i < numMonths; i++) {
     if (s.toLowerCase().startsWith(Months[i])) return i + 1;
   }
   
