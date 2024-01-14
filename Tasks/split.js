@@ -7,7 +7,7 @@
 
 'use strict';
 
-const split_Array = (index, array) => {
+const splitArray = (index, array) => {
   
   const begin = array.slice(0, index);
   const array = array.slice(index, array.length);
@@ -15,4 +15,4 @@ const split_Array = (index, array) => {
   return [begin, array];
 };
 
-module.exports = split_Array;
+module.exports = splitArray;
