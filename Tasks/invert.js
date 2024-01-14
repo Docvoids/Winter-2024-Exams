@@ -13,13 +13,13 @@
 
 const invert = (arr) => {
  
- const rev_arr = [];
+ const revArr = [];
  
   for (const elm of arr) {
-    rev_arr.unshift(elm);
+    revArr.unshift(elm);
   }
  
-  return rev_arr;
+  return revArr;
 };
 
 module.exports = invert;
