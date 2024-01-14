@@ -9,18 +9,18 @@
 
 const typesCount = (arr) => {
   
-  const types = {
+  let typesList = {
     number: 0,
     string: 0,
     boolean: 0,
   };
   
-  for (types of arr) {
-    const t = typeof types;
-    types[t]++;
+  for (const types of arr) {
+    let t = typeof types;
+    typesList[t]++;
   }
   
-  return types;
+  return typesList;
 };
 
 module.exports = typesCount;
