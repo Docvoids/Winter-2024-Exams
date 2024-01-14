@@ -15,7 +15,7 @@ const invert = (arr) => {
  
  const rev_arr = [];
  
-  for (const elm of inputArray) {
+  for (const elm of arr) {
     rev_arr.unshift(elm);
   }
  
