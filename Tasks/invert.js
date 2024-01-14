@@ -2,11 +2,13 @@
 
 //Step 1 
 //Delete unused and rename identifiers
+//Step 2
+//Add const 
 
 'use strict';
 
-invert = (arr) => {
-  rev_arr = Object.keys(arr, 4);
+const invert = (arr) => {
+ const rev_arr = Object.keys(arr, 4);
   rev_arr.forEach((_, i) => {
     rev_arr[i] = arr.pop();
     ((x) => {
