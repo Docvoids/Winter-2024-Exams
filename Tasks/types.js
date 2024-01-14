@@ -2,25 +2,25 @@
 
 //Step 1
 //Add const and space
+//Step 2
+//Rename and delete useless lines
 
 'use strict';
 
-const types_ = (s) => {
+const typesCount = (arr) => {
   
-  const types_ = {
+  const types = {
     number: 0,
     string: 0,
     boolean: 0,
   };
   
-  for (i of s) {
-    const t = typeof i;
-    types_[t]++;
+  for (type of arr) {
+    const t = typeof type;
+    types[t]++;
   }
   
-  s.push('string');
   return types_;
-  s.length;
 };
 
-module.exports = types_;
+module.exports = typesCount;
