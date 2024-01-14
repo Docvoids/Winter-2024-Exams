@@ -10,9 +10,9 @@
 const splitArray = (index, array) => {
   
   const begin = array.slice(0, index);
-  const array = array.slice(index, array.length);
+  const end = array.slice(index, array.length);
   
-  return [begin, array];
+  return [begin, end];
 };
 
 module.exports = splitArray;
