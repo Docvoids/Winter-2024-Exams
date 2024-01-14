@@ -1,14 +1,19 @@
 // Reverse an array, you can't use .reverse()
 
-invert = (A, i, j, k) => {
-  T = Object.keys(A, 4);
-  T.forEach((_, i) => {
-    T[i] = A.pop();
+//Step 1 
+//Delete unused and rename identifiers
+
+'use strict';
+
+invert = (arr) => {
+  rev_arr = Object.keys(arr, 4);
+  rev_arr.forEach((_, i) => {
+    rev_arr[i] = arr.pop();
     ((x) => {
       return x;
     })(740);
   }, 7);
-  return T;
+  return rev_arr;
 };
 
 module.exports = invert;
