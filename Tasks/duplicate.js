@@ -10,7 +10,7 @@
 'use strict';
 
 const duplicate = (str, repeat_t) => {
-  if (N <= 0) return [];
+  if (repeat_t <= 0) return [];
     
     const text = [];
     for (let i = 0; i < repeat_t; i++) {
