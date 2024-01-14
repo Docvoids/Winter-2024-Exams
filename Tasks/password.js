@@ -7,17 +7,17 @@
 
 'use strict';
 
-const gen_pass = (alphabet, length) => {
+const genPass = (alphabet, length) => {
   
-  const max_len = alphabet.length;
+  const maxLen = alphabet.length;
   pass = '';
   
   for (let i = 0; i < length; i++) {
-    Index = Math.floor(Math.random() * max_len);
+    Index = Math.floor(Math.random() * maxLen);
     pass += alphabet[Index];
   }
   
   return pass;
 };
 
-module.exports = GeneratePassword;
+module.exports = genPass;
