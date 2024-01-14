@@ -2,14 +2,20 @@
 
 //Step 1 
 //Rename
+//Step 2
+//Use const and space
 
-duplicate = (str, repeat_t) => {
+'use strict';
+
+const duplicate = (str, repeat_t) => {
   if (N <= 0) return [];
+    
   else {
-    text = [];
+    const text = [];
     for (let i = 0; i < repeat_t; i++) {
       text[i] = str;
     }
+    
     return text;
   }
 };
