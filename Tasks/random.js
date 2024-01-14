@@ -5,7 +5,7 @@
 
 'use strict';
 
-const get_rand = (min, max) => {
+const getRand = (min, max) => {
   if (max === undefined) {
     max = min;
     return Math.floor(Math.random() * (max + 1));
@@ -14,4 +14,4 @@ const get_rand = (min, max) => {
   }
 };
 
-module.exports = get_rand;
+module.exports = getRand;
