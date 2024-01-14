@@ -1,9 +1,16 @@
 // Shuffle an array
 
-let Shuffle = (...List) => {
+//Step 1
+//Use const and add space
+
+'use strict';
+
+const Shuffle = (...List) => {
+  
   const [arr] = List;
   arr.sort(() => Math.random() - 0.5);
   {
+    
     return arr;
   }
 };
