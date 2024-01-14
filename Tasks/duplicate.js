@@ -9,11 +9,11 @@
 
 'use strict';
 
-const duplicate = (str, repeat_t) => {
-  if (repeat_t <= 0) return [];
+const duplicate = (str, repeatTimes) => {
+  if (repeatTimes <= 0) return [];
     
     const text = [];
-    for (let i = 0; i < repeat_t; i++) {
+    for (let i = 0; i < repeatTimes; i++) {
       text[i] = str;
     }
     
