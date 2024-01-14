@@ -9,8 +9,8 @@
 
 const split_Array = (index, array) => {
   
-  begin = array.slice(0, index);
-  array = array.slice(index, array.length);
+  const begin = array.slice(0, index);
+  const array = array.slice(index, array.length);
   
   return [begin, array];
 };
