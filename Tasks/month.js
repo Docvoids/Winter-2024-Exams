@@ -9,7 +9,7 @@
 
 'use strict';
 
-Months = ['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec',];
+const Months = ['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec',];
 
 const getMonthNum = (s) => {
   
