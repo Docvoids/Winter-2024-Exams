@@ -1,13 +1,16 @@
 // Return an array without duplicates
 
-duplicate = (value, N) => {
+//Step 1 
+//Rename
+
+duplicate = (str, repeat_t) => {
   if (N <= 0) return [];
   else {
-    res = [];
-    for (let i = 0; i < N; i++) {
-      res[i] = value;
+    text = [];
+    for (let i = 0; i < repeat_t; i++) {
+      text[i] = str;
     }
-    return res;
+    return text;
   }
 };
 
