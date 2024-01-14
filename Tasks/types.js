@@ -15,12 +15,12 @@ const typesCount = (arr) => {
     boolean: 0,
   };
   
-  for (type of arr) {
-    const t = typeof type;
+  for (types of arr) {
+    const t = typeof types;
     types[t]++;
   }
   
-  return types_;
+  return types;
 };
 
 module.exports = typesCount;
