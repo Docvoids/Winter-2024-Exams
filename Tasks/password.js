@@ -10,7 +10,7 @@
 const genPass = (alphabet, length) => {
   
   const maxLen = alphabet.length;
-  pass = '';
+  let pass = '';
   
   for (let i = 0; i < length; i++) {
     Index = Math.floor(Math.random() * maxLen);
