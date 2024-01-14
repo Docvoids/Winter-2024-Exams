@@ -2,14 +2,15 @@
 
 //Step 1
 //rename variables
+//Step 2
+//move let i in for
 
 'use strict'
 
 const Days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
 const parseDay = (inpStr) => {
-  let i;
-  for (i = 0; i < Days.length; i++) {
+  for (let i = 0; i < Days.length; i++) {
     if (inpStr.startsWith(Days[i].toLowerCase())) {
       return i + 1;
     }
